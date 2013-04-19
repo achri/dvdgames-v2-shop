@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /index.php
+Disallow: /cgi-bin
+Disallow: /db
+Disallow: /dev
+Disallow: /feed
+Disallow: /forum
+Disallow: /mail
+Disallow: /pommo
+Disallow: /shop
+Disallow: /source
+Disallow: /storage

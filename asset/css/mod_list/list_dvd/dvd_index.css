@@ -1,0 +1,102 @@
+/* NAVIGATION */
+div#dvd-box {
+	/*padding : 8px 0 0 0;*/
+	height:280px;
+	overflow: hide;
+}
+
+ul#dvd-box-list { 
+	width: 100%; 
+	height: 100%; 
+} * html #dvd-box-list { height: 12em; } /* IE6 */
+
+ul#dvd-box-list li {
+  float: left;
+	padding: 5px;
+	margin: 8px 0 0 21px; 
+	text-align: center; 
+	z-index: 10;
+  cursor: pointer;
+	min-height: 120px;
+	max-height: 120px;
+	min-width: 86px;
+	max-width: 86px; 
+}
+
+ul.dvd-box-list li .judul { 
+	font-size: 10px;
+	margin: 0 0 0.4em;
+	height: 13px;
+	overflow: hidden;
+}
+#list-dvd-nav {
+	height: 20px;
+	/*
+	height: 26px;
+	margin: 0 3px;
+	padding: 5px 5px 2px 5px;
+	display: none;
+	position: fixed;
+	*/
+}
+.content-ajax-sub {
+	overflow: hidden !important;
+}
+#list-dvd-nav ul li {
+	list-style: none;
+	float: left;
+	padding: 0 0 0 5px;
+}
+#list-dvd-nav table {
+	height: 20px;
+}
+#list-dvd-nav a.pagina {
+	float: left;
+	cursor: pointer;
+}
+#list-dvd-nav input {
+	width:130px;
+	text-transform: uppercase;
+}
+#list-dvd-nav input , #list-dvd-nav select  {
+	font-size:10px;
+	height:16px;
+}
+
+/* DVD ITEMS */
+
+ul.dvd-box-list li a { 
+	float: right; 
+}
+ul.dvd-box-list li a.ui-icon-zoomin { 
+	float: left; 
+}
+
+ul.dvd-box-list li div img, ul.dvd-box-list li div.dvd-preloader { 
+	/*width: 99%;*/
+	/*width: 85px;*/
+	/*max-height: 80px;*/
+	height:85px;
+	max-height:85px;
+	max-width:85px
+}
+
+ul.dvd-box-list li .rating { 
+	/*position:absolute;
+	margin-left:-25px;*/
+}
+
+ul li.dvd-box-list-corner {
+	/*-moz-border-radius-topright: 14px;*/
+	-moz-border-radius-topleft: 14px;
+  -moz-border-radius-bottomleft: 14px;
+	/*-webkit-border-top-right-radius: 14px;*/
+  -webkit-border-top-left-radius: 14px;	
+	-webkit-border-bottom-left-radius: 14px;	
+	border-top-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+}
+
+ul li.dvd-box-list-items{
+	list-style:none;
+}

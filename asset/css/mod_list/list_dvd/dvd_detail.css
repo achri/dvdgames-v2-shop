@@ -1,0 +1,16 @@
+#youtube-container .youtube-carousel {
+	width: 500px;
+	margin: 10px 0 10px 0;
+}
+
+#youtube-container .youtube-auto-thumbnails  {
+	padding: 0px;
+	height: 60px;
+	position: relative;
+}
+
+#youtube-container .youtube-auto-thumbnails .youtube_items {
+	margin: 4px;
+	display: block;
+	float: left;
+}
